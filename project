@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        int number1 = 1; //you can change the value here later
+
+        if (number1 < 0) {
+            System.out.println("The number is negative");
+
+        } else if (number1 > 0) {
+            System.out.println("The number is positive");
+
+        } else {
+            System.out.println("The number is zero");
+        }
+    }
+}
